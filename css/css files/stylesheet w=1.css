@@ -1,0 +1,28 @@
+p{
+    background-color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    
+    
+}
+.box{
+    font-style: oblique;
+    color: blue;
+    border: 2px solid black;
+
+}
+
+
+ul>li:hover{
+    color: brown;
+    font-size: large;
+    font-style: italic;
+    text-align: left;
+}
+.box::before{
+    content: "read carefully>>";
+    color: blueviolet;
+    font-style: inherit;
+    
+}
+
